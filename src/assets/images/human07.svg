@@ -1,0 +1,39 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="SVG" clip-path="url(#clip0_1_615)">
+<g id="Clip path group">
+<mask id="mask0_1_615" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+<g id="clip0_701_16056">
+<path id="Vector" d="M24 0.0300293H0V24.03H24V0.0300293Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1_615)">
+<g id="Group">
+<path id="Vector_2" d="M18 2.53003H6C4.067 2.53003 2.5 4.09703 2.5 6.03003V18.03C2.5 19.963 4.067 21.53 6 21.53H18C19.933 21.53 21.5 19.963 21.5 18.03V6.03003C21.5 4.09703 19.933 2.53003 18 2.53003Z" stroke="#FCFDFF" stroke-opacity="0.937"/>
+<path id="Vector_3" d="M17 7.53003H7C6.17157 7.53003 5.5 8.2016 5.5 9.03003V15.03C5.5 15.8585 6.17157 16.53 7 16.53H17C17.8284 16.53 18.5 15.8585 18.5 15.03V9.03003C18.5 8.2016 17.8284 7.53003 17 7.53003Z" stroke="#FCFDFF" stroke-opacity="0.937"/>
+<path id="Vector_4" d="M5.5 9.03003L10.4084 11.2611C10.7983 11.4383 11.2216 11.53 11.6498 11.53H12.3502C12.7784 11.53 13.2017 11.4383 13.5916 11.2611L18.5 9.03003" stroke="#FCFDFF" stroke-opacity="0.937"/>
+<path id="Vector_5" d="M8 0.0300293H7V3.03003H8V0.0300293Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_6" d="M8 21.03H7V24.03H8V21.03Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_7" d="M11 0.0300293H10V3.03003H11V0.0300293Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_8" d="M11 21.03H10V24.03H11V21.03Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_9" d="M14 0.0300293H13V3.03003H14V0.0300293Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_10" d="M14 21.03H13V24.03H14V21.03Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_11" d="M17 0.0300293H16V3.03003H17V0.0300293Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_12" d="M17 21.03H16V24.03H17V21.03Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_13" d="M3 7.03003H0V8.03003H3V7.03003Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_14" d="M24 7.03003H21V8.03003H24V7.03003Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_15" d="M3 10.03H0V11.03H3V10.03Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_16" d="M24 10.03H21V11.03H24V10.03Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_17" d="M3 13.03H0V14.03H3V13.03Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_18" d="M24 13.03H21V14.03H24V13.03Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_19" d="M3 16.03H0V17.03H3V16.03Z" fill="#FCFDFF" fill-opacity="0.937"/>
+<path id="Vector_20" d="M24 16.03H21V17.03H24V16.03Z" fill="#FCFDFF" fill-opacity="0.937"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_615">
+<rect width="24" height="24" fill="white" transform="translate(0 0.0300293)"/>
+</clipPath>
+</defs>
+</svg>

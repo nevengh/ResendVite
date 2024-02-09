@@ -1,0 +1,38 @@
+.SubSectionTwo{
+    margin-top: 11.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-two-title{
+    background: linear-gradient(135deg, #FFF 30%, rgba(255, 255, 255, 0.50) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--font-family-primary);
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 4.2rem; /* 120% */
+    letter-spacing: -0.0875rem;
+}
+
+.SubSectionTwo p{
+    width: 42.30438rem;
+    color: rgba(239, 245, 255, 0.69);
+text-align: center;
+font-family: Inter;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6875rem; /* 150% */
+}
+
+@media (max-width:540px){
+    .SubSectionTwo p{
+        width: 20rem;
+        font-size: .9rem;
+    }
+}

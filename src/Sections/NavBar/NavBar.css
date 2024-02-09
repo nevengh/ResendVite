@@ -1,0 +1,32 @@
+.navbar{
+    width: 100%;
+    backdrop-filter: blur(2px);
+}
+
+.nav-btn{
+    margin-left: 0.75rem;
+    border-radius: 624.9375rem;
+    border: 1px solid #E5E7EB;
+    background: #FFF;
+    padding: 0.5rem 0.5625rem 0.5rem 1.0625rem;
+    
+}
+.nav-btn a{
+    color: black;
+}
+
+.nav_Link{
+    color: rgba(239, 245, 255, 0.69);
+    font-family: var(--font-family-primary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem; /* 142.857% */
+    transition: .6s all ease-in-out;
+}
+
+.nav_Link:hover{
+    /* color: white; */
+    padding: 0.5rem 0.5625rem 0.5rem 1.0625rem;
+    border-radius: 624.9375rem;
+    background: linear-gradient(135deg, #FFC446 0%, rgba(255, 106, 7, 0.96) 100%);
+}

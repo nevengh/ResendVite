@@ -1,0 +1,117 @@
+.body-lights{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90rem;
+    height: 50.625rem;
+    background: url('../../assets/images/light.svg');
+    z-index: -1;
+}
+
+.ne-hero-title{
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.10), -1px -1px 0px rgba(255, 255, 255, 0.20);
+font-family: var(--font-family-primary);
+font-size: 4.5rem;
+font-weight: 400;
+line-height: 5rem; /* 111.111% */
+letter-spacing: -0.1125rem;
+background: linear-gradient(135deg, #FFF 30%, rgba(255, 255, 255, 0.50) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 2rem;
+}
+
+.ne-hero{
+    margin-top: 9.37rem;
+    position: relative;
+    z-index: 666;
+}
+
+.ne-btn-hero{
+    display: flex;
+    width: 15.70625rem;
+    height: 2rem;
+    padding: 0.0625rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 624.9375rem;
+    background: linear-gradient(90deg, rgba(2, 252, 239, 0.44) 0%, rgba(255, 181, 43, 0.44) 50%, rgba(160, 43, 254, 0.44) 100%);
+}
+
+.ne-btn-hero a{
+    color: white;
+}
+
+.ne-hero-image{
+    /* margin-top: 2.56rem; */
+    /* width: 37.5rem; */
+    
+    position: relative;
+    z-index: 6;
+}
+
+
+.light{
+    width: 37.5rem;
+    height: 37.5rem;
+    position: absolute;
+    border-radius: 624.9375rem;
+    background: linear-gradient(135deg, rgba(0, 254, 221, 0.05) 0%, rgba(83, 57, 22, 0.25) 100%);
+    filter: blur(50px);
+}
+
+.ne-hero-text{
+    margin-top: 1rem;
+    color:#EFF5FFB1;
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-normal);
+    font-size: 1.125rem;
+    line-height: 1.6875rem; /* 150% */
+    width: 29.11438rem;
+}
+
+.ne-hero-btn-group{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.ne-hero-footer{
+    margin-top: 3.47rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ne-hero-footer h4 span{
+    padding: 0 .3rem 0 .3rem;
+}
+.ne-hero-footer h4{
+    text-align: center;
+    font-family: var(--font-family-primary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.4rem; /* 160% */
+    background: linear-gradient(135deg, #FFF 0%, rgba(228, 238, 255, 0.49) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ne-second-btn-hero{
+    border-radius: 624.9375rem;
+    border: 1px solid rgba(24, 24, 246, 0.01);
+    background: rgba(24, 24, 246, 0.01);
+    padding: 0.75rem 0.56313rem 0.75rem 1.3125rem; 
+}
+
+.ne-second-btn-hero a{
+    color:#EFF5FFB1;
+}
+
+.ne-second-btn-hero a:hover{
+    color: white;
+}
+
+

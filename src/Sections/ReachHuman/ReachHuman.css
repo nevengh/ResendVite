@@ -1,0 +1,30 @@
+.Reachhuman{
+    margin-top: 6rem;
+    
+}
+
+.ne-reachhuman-title{
+    width: 25.28688rem;
+    margin-top: 5.88rem;
+    padding-left: 1.62rem;
+    background: linear-gradient(135deg, #FFF 30%, rgba(255, 255, 255, 0.50) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--font-family-primary);
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 4.2rem; /* 120% */
+    letter-spacing: -0.0875rem;
+
+}
+
+
+
+
+@media (max-width:540px){
+    .ne-reachhuman-title{
+        font-size: 1.4rem;
+        width: 20rem;
+    }
+}

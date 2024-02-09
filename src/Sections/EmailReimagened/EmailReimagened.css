@@ -1,0 +1,34 @@
+.EmailReimagened{
+    margin-top: 33.42rem;
+}
+
+.Email-title{
+    margin: auto;
+}
+
+.Resend-img{
+    margin-top: 6.38rem;
+    /* position: relative; */
+    /* width: 77rem; */
+    height: 20.625rem;
+    opacity: 0.2865;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('../../assets/images/RESEND.svg');
+    background: lightgray 0px 0px / 100% 100% no-repeat; */
+    /* background: url('../../assets/images/RESEND.svg'), lightgray 0px 0px / 100% 100% no-repeat; */
+    
+}
+
+@media (max-width:600px){
+    .Resend-img img{
+        width: 20rem;
+        
+    }
+    .Resend-img{
+        margin-top: 0;
+    }
+}
+

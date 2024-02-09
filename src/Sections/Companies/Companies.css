@@ -1,0 +1,56 @@
+.Companies{
+    margin-top: 6rem;
+    
+}
+
+.sec-wrapper{
+    position: relative;
+    /* width: 77rem;
+    height: 22.9375rem; */
+    border-radius: 1.5rem;
+    border-top: 1px solid rgba(212, 228, 254, 0.19);
+}
+
+.spotLight{
+    position: absolute;
+    top: 0;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 25rem;
+height: 12.5rem;
+background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(200, 200, 200, 0.10) 0%, rgba(0, 0, 0, 0.00) 80%);
+}
+
+.ne-comp-header{
+    margin-top: 5.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ne-comp-header h4{
+    width: 20.17625rem;
+    color: #EFF5FFB1;
+    text-align: center;
+    font-family: var(--font-family-primary);
+    font-size: 1.125rem;
+    font-weight: var(--font-primary);
+    line-height: 1.6875rem; /* 150% */
+}
+
+.logo-boxs{
+    margin-top: 4.69rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.29rem;
+}
+.row-one{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.78rem;
+}
+

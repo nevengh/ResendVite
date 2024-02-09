@@ -1,0 +1,133 @@
+
+
+.frame{
+    /* width: 77rem; */
+    /* height: 43.75rem; */
+    border-radius: 1.5rem;
+    border: 1px solid rgba(212, 228, 254, 0.19);
+    margin-top: 5rem;
+}
+
+.frame-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.icons-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.icons-i{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 4.125rem;
+    height: 2.125rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(212, 228, 254, 0.19);
+}
+
+.aside{
+    
+    width: 15.5rem;
+    height: 40.625rem;
+    border-right: 1px solid rgba(212, 228, 254, 0.19);
+    border-top: 1px solid rgba(212, 228, 254, 0.19);
+    
+}
+
+.tablist{
+    padding: .5rem;
+}
+
+.tablist span{
+    
+    color: rgba(239, 245, 255, 0.69);
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 142.857% */
+}
+
+.pre{
+    width: 87.7175rem;
+    border-top: 1px solid rgba(212, 228, 254, 0.19);
+    display: flex;
+
+}
+.pre-two-head{
+    /* padding-top: 3.5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.06rem;
+}
+.pre-two-head h4{
+    color: rgba(252, 253, 255, 0.94);
+font-family: Inter;
+font-size: 1.42969rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.1rem;
+}
+
+.pre-two-text{
+    padding-top: 2.1rem;
+    color: rgba(252, 253, 255, 0.94);
+    font-family: Inter;
+    font-size: 0.82031rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 182.857% */
+}
+.pre-two-text p span{
+    color: rgba(252, 253, 255, 0.94);
+font-family: Inter;
+font-size: 0.82031rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem;
+}
+
+.pre-two-btn button{
+    padding: 0.75rem 1.2375rem 0.75rem 1.25rem;
+    border-radius: 0.25rem;
+    background: #00A3FF;
+    color: white;
+}
+
+.pre-two-footer h5{
+    width: 6.61rem;
+    color: rgba(252, 253, 255, 0.94);
+    font-family: Inter;
+    font-size: 0.84081rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 178.397% */
+}
+
+.pre-two{
+    padding: 3.5rem 3.75rem;
+    width: 31.25313rem;
+height: 39.375rem;
+border-radius: 1rem;
+background: radial-gradient(50% 100% at 50% 50%, rgba(0, 163, 255, 0.13) 0%, rgba(0, 163, 255, 0.00) 50%, rgba(0, 163, 255, 0.00) 100%), rgba(121, 121, 250, 0.03);
+}
+.frame-sides{
+    display: flex;
+
+}
+
+@media (max-width:1400px){
+    .frame{
+        display: none;
+    }
+}

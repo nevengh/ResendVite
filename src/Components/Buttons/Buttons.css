@@ -1,0 +1,37 @@
+.primary-btn{
+    color: #000;
+    font-family: var(--font-family-primary);
+    font-size: 0.875rem;
+    font-weight: var(--font-bold);
+    line-height: 1.25rem; /* 142.857% */
+    border-radius: 624.9375rem;
+    border: 1px solid #E5E7EB;
+    background: #FFF;
+    padding: 0.5rem 0.5625rem 0.5rem 1.0625rem;
+    gap: -0.02006rem;
+    margin-left: 1rem;
+
+    
+}
+
+.primary-btn a{
+    color: black;
+}
+
+.secondary-btn{
+    margin-top: 9.38rem;
+    display: flex;
+    width: 15.70625rem;
+    height: 2rem;
+    padding: 0.0625rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 624.9375rem;
+    background: linear-gradient(90deg, rgba(2, 252, 239, 0.44) 0%, rgba(255, 181, 43, 0.44) 50%, rgba(160, 43, 254, 0.44) 100%);
+}
+
+
+
+.secondary-btn a{
+    color: white;
+}

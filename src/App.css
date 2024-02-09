@@ -1,42 +1,118 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+:root{
+
+  --font-family-primary:'Inter', sans-serif;
+  --font-normal:400;
+  --font-bold:600;
+  --font-family-secondary:'Noto Sans', sans-serif;
+  --color-primary:color: rgba(239, 245, 255, 0.69);
+  --color-bg:#000;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Kaisei+Tokumin:wght@400;500;700&family=Noto+Sans:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Kaisei+Tokumin:wght@400;500;700&family=Noto+Sans:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+body{
+  background: var(--color-bg);
+}
+
+a{
+  text-decoration: none;
+  /* color: white; */
+}
+
+ul{
+  list-style: none;
+}
+
+
+/* Media */
+
+@media (max-width:540px){
+  .ne-hero-image img{
+      width: 20rem;
   }
-  to {
-    transform: rotate(360deg);
+  .ne-hero-title{
+      font-size: 2rem !important;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .ne-hero-image{
+      height: 20.5rem;
   }
+  .light{
+      display: none;
+  }
+  .ne-hero-text{
+  font-size: .955rem;
+  width: fit-content !important;
+  }
+
+  .nav-bttn-started{
+      display: none;
+  }
+
+  .spotLight{
+      display: none;
+  }
+  .developemail-text{
+      width: 18rem !important;
+      font-size: 1.3rem !important;
+  }
+  .container-img{
+      gap: 2rem;
+      display: flex;
+      flex-direction: column;
+      width: 20.375rem !important;
+  
+      background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 20%, rgba(0, 0, 0, 0.00) 90%, rgba(0, 0, 0, 0.00) 100%);
+  }
+  .firstclass-one .row01 {
+      width: 15rem !important;
+  }
+  
+  
+  .container-img svg{
+      width: fit-content !important;
+  }
+  .firstclass-card p{
+      width: fit-content !important;
+  }
+  .control-content h6{
+      width: fit-content !important;
+  }
+  .sub-two-title{
+     
+      font-size: 2.5rem !important;  
+      
+  }
+  .SubSectionTwo p{
+      width: fit-content !important;
+      
+  }
+  .Resend-img img{
+      width: 12rem;
+      
+  }
+  .FirstClass-title{
+      width: 20rem !important;
+  }
+  .ne-reachhuman-title{
+      padding: 0 !important;
+  }
+  .sub-content p{
+      width: fit-content !important;
+  }
+  .line{
+      display: none;
+  }
+  .integrate-head h1,.integrate-head p,.FirstClass-text{
+      width: fit-content !important;
+  }
+  
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}

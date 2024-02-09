@@ -1,0 +1,112 @@
+.EverythingInControl{
+    margin-top: 9.21rem;
+}
+
+.control-content{
+    margin-top: 6rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.control-content h4{
+    text-align: center;
+    font-family: var(--font-family-primary);
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.2rem; /* 120% */
+    letter-spacing: -0.0875rem;
+    background: linear-gradient(135deg, #FFF 30%, rgba(255, 255, 255, 0.50) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.control-content h6{
+    width: 39.52rem;
+    color: rgba(239, 245, 255, 0.69);
+text-align: center;
+font-family: Inter;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6875rem; /* 150% */
+}
+
+.card-control{
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    margin-top: 4.19rem;
+    width: 24.33313rem;
+    height: 5.625rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(212, 228, 254, 0.19);
+}
+
+.card-control-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(212, 228, 254, 0.19);
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+.card-control p{
+    color: rgba(252, 253, 255, 0.94);
+font-family: Segoe UI;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+letter-spacing: -0.025rem;
+}
+
+.tabPanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+@media (max-width:540px){
+    .tabPanel img{
+        /* width: 20rem; */
+        display: none;
+    }
+    .subsection-img img{
+        width: 5rem;
+    }
+
+    .control-content h4{
+        font-size: 1.5rem;
+    }
+    .control-content h6{
+        width: 20.52rem;
+    }
+    .card-control{
+        display: flex;
+        align-items: center;
+        padding: 1.5rem;
+        gap: 1.5rem;
+        margin-top: 4.19rem;
+        width: 15.33313rem;
+        height: 5.625rem;
+        border-radius: 1rem;
+        border: 1px solid rgba(212, 228, 254, 0.19);
+    }
+}
+@media (max-width:994px){
+    .tabPanel img{
+        width: 30rem;
+    }
+}
+
+

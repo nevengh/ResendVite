@@ -1,0 +1,27 @@
+.card-reachhuman{
+    display: flex;
+    flex-direction: column;
+    padding: 1.62rem;
+    margin-top: 2.76rem;
+    gap: .5rem;
+
+}
+.card-reachhuman img{
+    width: 1.5rem;
+}
+
+.card-human-title{
+    color: rgba(252, 253, 255, 0.94);
+font-family: var(--font-family-primary);
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.25rem; /* 100% */
+}
+
+.card-human-text{
+    color: rgba(239, 245, 255, 0.69);
+font-family: var(--font-family-primary);
+font-size: 0.875rem;
+font-weight: 400;
+line-height: 1.4rem; /* 160% */
+}
