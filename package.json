@@ -1,6 +1,8 @@
 {
+  
   "name": "resendvite",
   "private": true,
+  "homepage": "https://nevengh.github.io/ResendVite/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
