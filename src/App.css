@@ -36,7 +36,7 @@ ul{
 
 @media (max-width:540px){
   .ne-hero-image img{
-      width: 20rem;
+      width: 18rem;
   }
   .ne-hero-title{
       font-size: 2rem !important;
@@ -63,11 +63,12 @@ ul{
       width: 18rem !important;
       font-size: 1.3rem !important;
   }
+
   .container-img{
       gap: 2rem;
       display: flex;
       flex-direction: column;
-      width: 20.375rem !important;
+      width: 18.375rem !important;
   
       background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 20%, rgba(0, 0, 0, 0.00) 90%, rgba(0, 0, 0, 0.00) 100%);
   }
@@ -77,7 +78,7 @@ ul{
   
   
   .container-img svg{
-      width: fit-content !important;
+      width: 18rem !important;
   }
   .firstclass-card p{
       width: fit-content !important;
@@ -103,7 +104,12 @@ ul{
   }
   .ne-reachhuman-title{
       padding: 0 !important;
+      /* padding-left: 1.62rem; */
+      text-align: center;
+      font-size: 1rem !important;
+      /* width: 20.28688rem !important; */
   }
+  
   .sub-content p{
       width: fit-content !important;
   }

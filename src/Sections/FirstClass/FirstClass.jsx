@@ -12,7 +12,7 @@ const FirstClass = () => {
         <div className="firstclass-container">
             <div className="container-one">
                 <div className="container-img">
-                <svg className='m-auto' width="410" height="45" viewBox="0 0 410 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className='m-auto con-img-rect' width="410" height="45" viewBox="0 0 410 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="0.950073" width="410" height="44" rx="8" fill="url(#paint0_linear_1_311)"/>
                     <rect x="0.5" y="1.45007" width="409" height="43" rx="7.5" stroke="#D4E4FE" stroke-opacity="0.192"/>
                     <rect x="9" y="7.95007" width="70.23" height="28" rx="6" fill="#00FD90" fill-opacity="0.11"/>
